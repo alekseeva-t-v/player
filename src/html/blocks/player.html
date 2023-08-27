@@ -1,0 +1,63 @@
+<div class="audio-player__wrapper">
+  <div class="audio-player" id="audio-player">
+    <div class="audio-player__top-bar">
+      Audio player
+    </div>
+    <div>
+      <div class="audio-player__img-area">
+        <!-- <img src="" alt="" /> -->
+      </div>
+
+      <div class="audio-player__song-details">
+        <p class="audio-player__song-name">Moonlight Sonata</p>
+        <p class="audio-player__artist">Paul Pitman</p>
+      </div>
+
+      <div class="audio-control__wrapper">
+        <div class="audio-control__progress-area">
+          <div class="audio-control__progress-bar"></div>
+          <div class="audio-control__timer">
+            <span class="audio-control__current">0:20</span>
+            <span class="audio-control__duration">3:40</span>
+          </div>
+        </div>
+        <audio src="" id="main-audio"></audio>
+
+        <div class="volume__container">
+          <div class="volume__button">
+            <i id="icono-volumeMedium" class="material-icons">volume_up</i>
+          </div>
+
+          <div class="volume__slider">
+            <div class="volume__percentage"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <!-- Знак ПОВТОР -->
+        <i id="repeat-plist" class="material-icons" title="Playlist looped"
+          >repeat</i
+        >
+        <!-- Знак  ПЕРЕКЛЮЧИТЬ НАЗАД -->
+        <i id="prev" class="controls__prev material-icons">skip_previous</i>
+        <div class="play-pause">
+          <i class="material-icons">play_arrow</i>
+        </div>
+        <i id="next" class="controls__next material-icons">skip_next</i>
+        <i id="more-music" class="material-icons">queue_music</i>
+      </div>
+
+      <div class="music-list">
+        <div class="music-list__header">
+          <div class="music-list__row">
+            <i id="more-music" class="material-icons">queue_music</i>
+            <span>Music list</span>
+          </div>
+          <i id="close" class="material-icons">close</i>
+        </div>
+        <ul></ul>
+      </div>
+    </div>
+  </div>
+</div>
