@@ -23,6 +23,6 @@
 ![JS](./public/images/js.svg)
 ![GIT](./public/images/git.svg)
 
-## [**Демо**](https://github.com/alekseeva-t-v/player)
+## [**Демо**](https://alekseeva-t-v.github.io/player/)
 
 ![demo](./public/images/demo.jpg)
