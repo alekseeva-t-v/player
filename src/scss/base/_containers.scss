@@ -4,24 +4,27 @@
   padding: 15px;
 }
 
-.container-right {
-	/* overflow-x: hidden; */
-	padding-left: calc(
-		(100% - var(--container-width)) / 2 + var(--container-padding)
-	);
-
-	@media (max-width: var(--laptop-size)) {
-		padding-left: var(--container-padding);
+@media (max-width: 1200px) {
+  .container {
+		max-width: 960px;
 	}
 }
 
-.container-left {
-	/* overflow-x: hidden; */
-	padding-right: calc(
-		(100% - var(--container-width)) / 2 + var(--container-padding)
-	);
+@media (max-width: 992px) {
+  .container {
+		max-width: 720px;
+	}
+}
 
-	@media (max-width: var(--laptop-size)) {
-		padding-right: var(--container-padding);
+@media (max-width: 768px) {
+  .container {
+		max-width: 540px;
+	}
+}
+
+@media (max-width: 576px) {
+  .container {
+		width: 100%;
+		padding: 0 10px;
 	}
 }
