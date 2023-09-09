@@ -118,8 +118,7 @@
   column-gap: 10px;
 }
 
-.light-mode-btn,
-.lang-btn {
+.light-mode-btn {
   position: relative;
 
   display: flex;
@@ -134,8 +133,7 @@
   transition: all 0.5s;
 }
 
-.light-mode-btn::before,
-.lang-btn::before {
+.light-mode-btn::before {
   content: '';
 
   position: absolute;
@@ -152,8 +150,7 @@
   transition: all 0.5s;
 }
 
-.light-mode-btn--active::before,
-.lang-btn--active::before {
+.light-mode-btn--active::before {
   left: 26px;
 }
 
